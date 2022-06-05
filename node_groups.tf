@@ -462,3 +462,4 @@ module "self_managed_node_group" {
 
 #   tags = merge(var.tags, try(each.value.tags, var.self_managed_node_group_defaults.tags, {}))
 }
+}
